@@ -7,7 +7,7 @@
     "init:dirs": "mkdir sass css venfor images js",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
-    "test": "npm run test:*",
+    "test": "npm-run-all test:*",
     "test:html": "html-validate *.html",
     "build": "npm-run-all build:* test",
     "build:sass": "sass --style=compressed --no-source-map sass:css",
