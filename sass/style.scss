@@ -4,6 +4,10 @@
 
 $color-light: #fff;
 $color-dark: #444;
+$color-blue: blue;
+$color-green: green;
+$color-purple: purple;
+
 
 $font-logo: 'Sacramento', cursive;
 $font-header: 'Oswald', sans-serif;
@@ -83,6 +87,25 @@ body {
   .active {
     font-weight: bold;
   }
+
+  .tag-size-1 {
+    font-size: 16px;
+    color: $color-green;
+  }
+
+  .tag-size-3 {
+    font-size: 20px;
+    color: $color-blue;
+  }
+
+  .tag-size-5 {
+    font-size: 24px;
+    color: $color-purple;
+  }
+}
+.tags li{
+  display: inline-block;
+  margin-right: 4px;
 }
 
 .list-horizontal {
